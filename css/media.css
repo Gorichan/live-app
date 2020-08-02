@@ -1,18 +1,37 @@
 @media screen and (max-width: 767px) {
     .header__sub h1, .record h2, .about h2, .download h2 {
-        font-size: 41px;
+        font-size: 31px;
         font-weight: bold;
     }
     .buttom img {
+        width: 150px;
         margin: 20px 10px;
     }
     .buttom {
-        margin-left: 10px;
+        margin: 0 30% 0 30%;
     }
     .buttom__footer {
         margin-left: 0;
         margin-bottom: 10px;
     }
-    
+    .buttons .icon {
+        margin-right: initial;
+        padding: 13px 25px 10px;
+    }
+    footer img {
+        max-width: 50px;
+    }
+    img {
+     padding: 0; 
+        
+    }
+    .row.justify-content-between {
+        padding: 50px 0;
+    } 
+}
+@media screen and (max-width: 579px) {
+    .buttom {
+        margin-left: 23%;
+    }
 }
 

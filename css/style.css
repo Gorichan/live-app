@@ -3,6 +3,7 @@ body {
     font-size: 17px;
 }
 img {
+    padding: 0 15px;
     max-width: 100%;
 }
 
@@ -45,11 +46,23 @@ form .btn {
 }
 
 .buttom .icon {
+    width: 115px;
     border-radius: 40px;
     padding: 13px 30px 13px;
     margin-right: 15px;
     border: 1px solid #1C7DD7;
 
+}
+.buttom .icon a {
+    width: 150px;
+
+}
+.buttom .icon:before {
+    content: '';
+    width: 115px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .buttons .icon:last-child {
     margin-right: 0;
