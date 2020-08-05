@@ -9,7 +9,7 @@ img {
 
 .navbar-brand img,
 footer img {
-    max-width: 50px;
+    max-width: 90px;
     
 }
 form .btn {
@@ -45,7 +45,7 @@ form .btn {
     margin: 0 25px;
 }
 
-.buttom .icon {
+ .icon {
     width: 115px;
     border-radius: 40px;
     padding: 13px 30px 13px;
@@ -53,11 +53,18 @@ form .btn {
     border: 1px solid #1C7DD7;
 
 }
-.buttom .icon a {
+.header__sub a img {
+    width: 115px;
+    padding: 0;
+}
+ .icon a {
     width: 150px;
 
 }
-.buttom .icon:before {
+.button__header-top {
+    margin-bottom: 30px;
+}
+.icon:before {
     content: '';
     width: 115px;
     height: 30px;
@@ -103,6 +110,7 @@ footer {
 }
 
 footer .icon {
+    border: none;
     margin-right: 15px;
 
 }

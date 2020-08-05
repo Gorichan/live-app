@@ -11,7 +11,7 @@
         margin: 0 30% 0 30%;
     }
     .buttom__footer {
-        margin-left: 0;
+        /* margin-left: 0; */
         margin-bottom: 10px;
     }
     .buttons .icon {
@@ -28,10 +28,19 @@
     .row.justify-content-between {
         padding: 50px 0;
     } 
-}
-@media screen and (max-width: 579px) {
-    .buttom {
-        margin-left: 23%;
+    .live__download button {
+        display: none;
     }
 }
+@media screen and (max-width: 360px) {
+    .live__download .collapse ul li {
+        margin: 0 15px;
+    }
+    .buttom {
+        margin: 0 10% 0 15%;
+    }
+}
+
+
+
 
